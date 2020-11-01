@@ -233,7 +233,7 @@ def save_pred_to_pkl(
     if demo_type in ['hand', 'frank']:
         assert smpl_type == 'smplx'
 
-    assert len(hand_bbox_list) == len(body_bbox_list)
+    #assert len(hand_bbox_list) == len(body_bbox_list)
     assert len(body_bbox_list) == len(pred_output_list)
 
     saved_data = dict()
